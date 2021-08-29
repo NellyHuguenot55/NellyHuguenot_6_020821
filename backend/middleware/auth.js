@@ -1,6 +1,6 @@
 // protection des routes avec l'authentification par token
 
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken'); // On récupère le package jsonwebtoken
 
 module.exports = (req, res, next) => {
   try {

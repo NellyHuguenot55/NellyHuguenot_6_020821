@@ -1,4 +1,7 @@
+// Importation du models sauce
 const Sauce = require('../models/sauce');
+
+// Importation de FS (accées aux opérations liées aux systémes de fichier)
  const fs = require('fs');
 
  //ajout d'une sauce 
